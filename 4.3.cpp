@@ -16,6 +16,6 @@ int main()
     strcat(fname, name);
     
     std::cout << "Here's the information in a single string: ";
-    std::cout << fname << endl;
+    std::cout << fname << std::endl;
     return 0;
 }
