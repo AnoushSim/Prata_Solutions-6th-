@@ -10,11 +10,11 @@ int main()
    int  books_of_eachmonth[5][n];
    for( i = 0; i <5; i++)
     {
-    std::cout << "Year " << y << ": " << std::endl;
+    std::cout << "Year " << i << ": " << std::endl;
     for( j = 0; j < n; j++)
       {
-            std::cout << "Enter sale for " << months[m] << ": ";
-            std::cin >> books_of_eachmonth[y][m];
+            std::cout << "Enter sale for " << months[j] << ": ";
+            std::cin >> books_of_eachmonthy[i][j];
         }
     }
    for(i=0;i<n;i++)
