@@ -17,7 +17,7 @@ int main()
      for( j = 0; j < n; j++)
      {
         s+=books_of_eachmonth[1][j];
-    std::cout<<"You sold "<< s<<" books.";
-     }
+    }
+  std::cout<<"You sold "<< s<<" books.";
     return 0;
 }
